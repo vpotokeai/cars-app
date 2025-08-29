@@ -1,0 +1,22 @@
+{
+  "name": "cars-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.6e0dfc6cd2d003ee.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vpotokeai/cars-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vpotokeai/cars-app/issues"
+  },
+  "scripts": {
+  "start": "ng serve",
+  "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
