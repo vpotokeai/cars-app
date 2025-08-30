@@ -159,6 +159,29 @@
 	gap: 20px;
 }
 
+/* Мобильная версия: авто под кнопкой */
+@media (max-width: 768px) {
+	.price-image {
+		display: block !important;
+		margin: 20px auto 0 auto !important;
+		position: static !important;
+		max-width: 90vw !important;
+		width: 100% !important;
+		order: 2;
+	}
+	.price-form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.price-form button {
+		order: 1;
+	}
+	.price-form .price-image {
+		order: 2;
+	}
+}
+
 @media (max-width: 768px) {
 	.price-form {
 		gap: 15px;
@@ -298,4 +321,3 @@
 		color: #ccc !important;
 	}
 }
-
